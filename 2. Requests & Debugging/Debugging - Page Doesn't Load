@@ -1,0 +1,2 @@
+2.1	Debugging: Page Doesn’t Load
+You’ve developed a (known working) web application that, when accessed, will dynamically retrieve a set of data from an SQL database and display it as HTML. When you visit the URL of the application, the page is blank. Describe your troubleshooting steps.
