@@ -1,0 +1,11 @@
+C:\Users\Bccad\source\repos\PlayingCardSort\PlayingCardSort\bin\Debug\netcoreapp3.0\PlayingCardSort.exe
+C:\Users\Bccad\source\repos\PlayingCardSort\PlayingCardSort\bin\Debug\netcoreapp3.0\PlayingCardSort.deps.json
+C:\Users\Bccad\source\repos\PlayingCardSort\PlayingCardSort\bin\Debug\netcoreapp3.0\PlayingCardSort.runtimeconfig.json
+C:\Users\Bccad\source\repos\PlayingCardSort\PlayingCardSort\bin\Debug\netcoreapp3.0\PlayingCardSort.runtimeconfig.dev.json
+C:\Users\Bccad\source\repos\PlayingCardSort\PlayingCardSort\bin\Debug\netcoreapp3.0\PlayingCardSort.dll
+C:\Users\Bccad\source\repos\PlayingCardSort\PlayingCardSort\bin\Debug\netcoreapp3.0\PlayingCardSort.pdb
+C:\Users\Bccad\source\repos\PlayingCardSort\PlayingCardSort\obj\Debug\netcoreapp3.0\PlayingCardSort.csprojAssemblyReference.cache
+C:\Users\Bccad\source\repos\PlayingCardSort\PlayingCardSort\obj\Debug\netcoreapp3.0\PlayingCardSort.AssemblyInfoInputs.cache
+C:\Users\Bccad\source\repos\PlayingCardSort\PlayingCardSort\obj\Debug\netcoreapp3.0\PlayingCardSort.AssemblyInfo.cs
+C:\Users\Bccad\source\repos\PlayingCardSort\PlayingCardSort\obj\Debug\netcoreapp3.0\PlayingCardSort.dll
+C:\Users\Bccad\source\repos\PlayingCardSort\PlayingCardSort\obj\Debug\netcoreapp3.0\PlayingCardSort.pdb
