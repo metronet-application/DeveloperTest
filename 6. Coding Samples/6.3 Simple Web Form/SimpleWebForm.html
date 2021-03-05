@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+
+<h2>Team Introduction</h2>
+
+<form name='teamIntroductionForm'>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" value=""><br>
+  <label for="funFact">Fun Fact:</label><br>
+  <input type="text" id="funFact" name="funFact"><br>  
+</form> </br>
+<p id="introName" hidden></br></p>
+<p id="introFunFact" hidden></br></p>
+<button id="submitButton" onclick="validateForm()">Submit</button></br></br>
+<button id="resetButton" style="display:none;" onclick="resetForm()">Reset</button>
+</body>
+
+<script>
+function validateForm() {
+  var x = document.forms["teamIntroductionForm"]["name"].value;
+  var y = document.forms["teamIntroductionForm"]["funFact"].value;
+  if (x == "" && y == "") {
+    alert("Name and Fun Fact must be filled out");
+	return false;
+	}
+  if (x == "") {
+    alert("Name must be filled out");
+	return false;
+	}
+  if (y == "") {
+    alert("Fun Fact must be filled out");
+	return false;
+	}
+  else {
+    console.log(x);
+	console.log(y);
+	document.forms["teamIntroductionForm"].style.display="none";
+	document.getElementById("introName").innerHTML = "Name: " + x
+	document.getElementById("introName").style.display="block";
+	document.getElementById("introFunFact").innerHTML = "Fun Fact: " + y
+	document.getElementById("introFunFact").style.display="block";
+	document.getElementById("submitButton").style.display="none"
+	document.getElementById("resetButton").style.display="block"
+	return true;
+	}
+}
+function resetForm(){
+  var x = document.forms["teamIntroductionForm"];
+  if (x.style.display === "none") {
+    x.style.display = "block";
+	document.forms["teamIntroductionForm"]["name"].value="";
+	document.forms["teamIntroductionForm"]["funFact"].value="";
+	document.getElementById("introName").style.display="none"
+	document.getElementById("introFunFact").style.display="none"
+	document.getElementById("submitButton").style.display="block"
+	document.getElementById("resetButton").style.display="none"
+  }
+}
+</script>
+</html>
